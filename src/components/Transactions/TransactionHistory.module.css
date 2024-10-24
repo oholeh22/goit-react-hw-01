@@ -1,0 +1,31 @@
+table {
+  width: 600px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border: 1px solid grey;
+}
+
+.tableHead {
+  background-color: rgba(39, 36, 33, 0.822);
+  color: white;
+}
+
+.th {
+  border: 1px solid rgb(0, 0, 0);
+  width: 33%;
+}
+
+.th,
+.td {
+  border: 1px solid grey;
+  padding: 5px 5px;
+}
+
+.td {
+  color: rgb(0, 0, 0);
+  border-top: 1px solid #e8edff;
+}
+
+.tr:nth-child(2n) {
+  background: #9d9da0ce;
+}
