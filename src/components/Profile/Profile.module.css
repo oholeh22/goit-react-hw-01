@@ -1,0 +1,74 @@
+.profileCard {
+  margin: 0 auto;
+  width: 250px;
+  border: 2px solid #000;
+  padding-top: 32px;
+  padding-bottom: 0;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  background-color: #f3f3f3;
+}
+
+.mainCard {
+  margin-top: auto;
+}
+
+.imgProfile {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #4b4b4b;
+  border-radius: 50%;
+}
+
+.nameProfile {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #000;
+}
+
+.tagProfile {
+  color: #696969a1;
+  font-size: 16px;
+}
+
+.locationProfile {
+  color: #696969a1;
+  font-size: 16px;
+}
+
+.listStats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.listStatsElem {
+  background-color: #d6d5d5;
+  border-top: 1px solid #acacac;
+  border-radius: 0 0 8px 8px;
+  padding: 10px;
+}
+
+.listStatsElem span:last-child {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.listStatsElem:first-child,
+.listStatsElem:last-child {
+  border-right: none;
+  border-left: none;
+  color: black;
+}
+
+.listStatsElem:nth-child(2) {
+  border-right: 1px solid #acacac;
+  border-radius: 0;
+  border-left: 1px solid #acacac;
+  color: black;
+}
